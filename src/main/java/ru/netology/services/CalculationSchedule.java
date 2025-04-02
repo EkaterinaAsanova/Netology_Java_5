@@ -16,7 +16,7 @@ public class CalculationSchedule {
 
             } else {
 
-                wastes = (money - expenses) - ((money - expenses) / 3);
+                wastes = 2 * (money - expenses) / 3;
 
                 System.out.println("Месяц " + month + " Денег " + money +
                         " Буду отдыхать. Потратил -" + expenses +
